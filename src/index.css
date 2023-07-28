@@ -1,0 +1,53 @@
+a {
+  padding: 5px;
+  margin-top: 4px;
+  color: rgb(235, 232, 232) !important;
+  border-radius: 8px;
+  font-size: 24px;
+}
+
+a:hover {
+  color: white;
+  background-color: #0909b9;
+}
+
+.active {
+  color: white !important;
+  background-color: #0909b9 !important;
+}
+
+span {
+  display: block;
+}
+.abs {
+  position: relative;
+}
+
+.cir {
+  position: absolute;
+  top: 67%;
+  left: 45%;
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    display: flex;
+    flex-direction: column-reverse !important;
+    /* background-color: red; */
+  }
+
+  .rela {
+    position: relative;
+  }
+
+  .abs {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+  }
+
+  .cir {
+    top: 37%;
+    left: 55%;
+  }
+}
